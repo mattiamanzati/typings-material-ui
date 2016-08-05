@@ -1,2 +1,2 @@
-export {default as MoreVert} from './more-vert'
-export {default as Menu} from './menu'
+export {default as MoreVertIcon} from './more-vert'
+export {default as MenuIcon} from './menu'
