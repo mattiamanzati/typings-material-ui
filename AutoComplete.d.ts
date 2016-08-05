@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as propTypes from './propTypes'
 import Divider from './Divider'
+import * as Menus from './Menus'
 
 export type AutoCompleteDataItem = { text: string, value: React.ReactNode } | string;
 export type AutoCompleteDataSource = { text: string, value: React.ReactNode }[] | string[];
