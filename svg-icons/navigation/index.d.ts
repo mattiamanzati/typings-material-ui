@@ -1,0 +1,1 @@
+export {default as MoreVert} from './more-vert'

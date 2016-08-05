@@ -4,7 +4,8 @@
     "main": "index.d.ts",
     "files": [
         "index.d.ts",
-        "styles.d.ts"
+        "styles.d.ts",
+        "svg-icons.d.ts"
     ],
     "dependencies": {
         "react": "registry:npm/react#15.0.1+20160601175240"
