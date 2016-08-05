@@ -2,6 +2,7 @@ import * as React from 'react'
 import * as propTypes from './propTypes'
 import {TouchTapEvent, TouchTapEventHandler, ReactLink} from './commons'
 import MenuItem from './MenuItem'
+import {IconButtonProps} from './IconButton'
 
 export interface IconMenuProps extends React.Props<IconMenu> {
     // <Menu/> is the element that get the 'other' properties
