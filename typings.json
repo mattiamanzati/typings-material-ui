@@ -3,7 +3,6 @@
     "version": "0.15.1",
     "main": "main.d.ts",
     "files": [
-        "main.d.ts",
         "styles.d.ts",
         "svg-icons.d.ts"
     ],
