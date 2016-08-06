@@ -1,5 +1,5 @@
 **TypeScript Version:**  
-1.8.0 / nightly (2.0.0-dev.201xxxxx)
+2.0.0
 
 **Typeings Version:** master  
 
