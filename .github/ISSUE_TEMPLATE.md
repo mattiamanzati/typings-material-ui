@@ -1,5 +1,4 @@
-**TypeScript Version:**  
-2.0.0
+**TypeScript Version:** 2.0.0
 
 **Typeings Version:** master  
 
