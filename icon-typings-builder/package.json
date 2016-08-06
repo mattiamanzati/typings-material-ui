@@ -1,0 +1,19 @@
+{
+  "name": "material-ui-icon-typings-builder",
+  "version": "0.1.2",
+  "description": "Material Design Svg Icons converted to React component typings",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ../svg-icons",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "glob": "^7.0.5",
+    "material-design-icons": "~2.2.3",
+    "mkdirp": "^0.5.1",
+    "mustache": "^2.1.2",
+    "recursive-readdir-sync": "^1.0.6",
+    "rimraf": "^2.5.4",
+    "temp": "^0.8.3"
+  }
+}
