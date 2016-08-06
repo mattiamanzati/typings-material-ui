@@ -2,7 +2,11 @@
 
 **Typings Version:** master  
 
-**Code**
+**Issue:**
+
+
+
+**Code:**
 
 ```ts
 // A *self-contained* demonstration of the problem follows...
@@ -12,4 +16,7 @@
 **Expected behavior:**
 
 
+
 **Actual behavior:** 
+
+
