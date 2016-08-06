@@ -1,9 +1,9 @@
 {
     "name": "material-ui",
     "version": "0.15.1",
-    "main": "index.d.ts",
+    "main": "main.d.ts",
     "files": [
-        "index.d.ts",
+        "main.d.ts",
         "styles.d.ts",
         "svg-icons.d.ts"
     ],
