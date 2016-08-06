@@ -1,3 +1,4 @@
-import SvgIcon from '../../SvgIcon'
+import * as React from 'react';
+import {SvgIconProps} from '../../SvgIcon';
 
-export default SvgIcon
+export default function MoreVert(props: SvgIconProps): React.ReactElement;
