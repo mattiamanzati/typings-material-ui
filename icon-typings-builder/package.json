@@ -12,6 +12,7 @@
     "mkdirp": "^0.5.1",
     "mustache": "^2.1.2",
     "recursive-readdir-sync": "^1.0.6",
+    "rimraf": "^2.5.4",
     "temp": "^0.8.3"
   }
 }
