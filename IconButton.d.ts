@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as propTypes from './propTypes'
-import {SharedEnhancedButtonProps} from './internal/SharedEnhancedButtonProps'
+import {SharedEnhancedButtonProps} from './internal/EnhancedButton'
 
 export interface IconButtonProps extends React.HTMLAttributes, SharedEnhancedButtonProps<IconButton> {
     // <EnhancedButton/> is the element that get the 'other' properties
