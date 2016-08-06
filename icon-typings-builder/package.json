@@ -4,7 +4,8 @@
   "description": "Material Design Svg Icons converted to React component typings",
   "private": true,
   "scripts": {
-    "build": "node build.js "
+    "clean": "rimraf ../svg-icons",
+    "build": "node build.js"
   },
   "devDependencies": {
     "glob": "^7.0.5",

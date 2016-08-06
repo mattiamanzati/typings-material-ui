@@ -7,18 +7,15 @@
 
 const fs = require('fs');
 const path = require('path');
-const rimraf = require('rimraf');
 const Mustache = require('mustache');
 const glob = require('glob');
 const mkdirp = require('mkdirp');
 const rrs = require('recursive-readdir-sync');
 
-const SVG_ICON_RELATIVE_REQUIRE = '../../SvgIcon';
 const OUTPUT_DIR = path.resolve(__dirname, '../svg-icons');
 const SVG_DIR = path.resolve(__dirname, './node_modules/material-design-icons/');
 
 function main() {
-  rimraf.sync(OUTPUT_DIR); // Clean old files
   fs.mkdirSync(OUTPUT_DIR);
 
   const files = glob.sync(path.join(SVG_DIR, '**/production/*_24px.svg'));
