@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {TouchTapEventHandler} from './commons'
+import {TouchTapEventHandler} from '../commons'
 
 export interface SharedEnhancedButtonProps<T> extends React.Props<T> {
     centerRipple?: boolean;
@@ -23,4 +23,12 @@ export interface SharedEnhancedButtonProps<T> extends React.Props<T> {
     touchRippleOpacity?: number;
     type?: string;
     containerElement?: React.ReactNode | string;
+}
+
+export interface EnhancedButtonProps extends React.HTMLAttributes, SharedEnhancedButtonProps<EnhancedButton> {
+    // container element, <button/>, or <span/>(if disabled link) is the element that get the 'other' properties
+    containerElement?: React.ReactNode | string;
+    disabled?: boolean;
+}
+export default class EnhancedButton extends React.Component<EnhancedButtonProps, {}> {
 }
