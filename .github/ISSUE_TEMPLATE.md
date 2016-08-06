@@ -1,6 +1,6 @@
 **TypeScript Version:** 2.0.0
 
-**Typeings Version:** master  
+**Typings Version:** master  
 
 **Code**
 
