@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 
-export interface CardMediaProps extends React.Props<CardMedia> {
+export interface CardMediaProps {
     actAsExpander?: boolean;
     expandable?: boolean;
     mediaStyle?: React.CSSProperties;

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {TouchTapEventHandler} from '../commons'
 
-export interface SharedEnhancedButtonProps<T> extends React.Props<T> {
+export interface SharedEnhancedButtonProps<T> {
     centerRipple?: boolean;
     disableFocusRipple?: boolean;
     disableKeyboardFocus?: boolean;

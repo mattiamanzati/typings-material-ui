@@ -5,7 +5,7 @@ import * as Menus from './Menus'
 
 export type AutoCompleteDataItem = { text: string, value: React.ReactNode } | string;
 export type AutoCompleteDataSource = { text: string, value: React.ReactNode }[] | string[];
-export interface AutoCompleteProps extends React.Props<AutoComplete> {
+export interface AutoCompleteProps {
     anchorOrigin?: propTypes.origin;
     animated?: boolean;
     dataSource: AutoCompleteDataSource;

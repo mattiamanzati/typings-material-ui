@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface CardActionsProps extends React.Props<CardActions> {
+export interface CardActionsProps {
     actAsExpander?: boolean;
     expandable?: boolean;
     showExpandableButton?: boolean;

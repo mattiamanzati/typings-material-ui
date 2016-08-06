@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {TouchTapEventHandler} from './commons'
 
-export interface AppBarProps extends React.Props<AppBar> {
+export interface AppBarProps {
     className?: string;
     iconClassNameLeft?: string;
     iconClassNameRight?: string;

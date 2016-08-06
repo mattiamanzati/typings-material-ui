@@ -4,7 +4,7 @@ import {TouchTapEvent, TouchTapEventHandler, ReactLink} from './commons'
 import MenuItem from './MenuItem'
 import {IconButtonProps} from './IconButton'
 
-export interface IconMenuProps extends React.Props<IconMenu> {
+export interface IconMenuProps {
     // <Menu/> is the element that get the 'other' properties
     anchorOrigin?: propTypes.origin;
     className?: string;

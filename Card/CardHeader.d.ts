@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface CardHeaderProps extends React.Props<CardHeader> {
+export interface CardHeaderProps {
     actAsExpander?: boolean;
     avatar?: React.ReactNode;
     expandable?: boolean;

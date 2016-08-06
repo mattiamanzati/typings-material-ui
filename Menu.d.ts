@@ -3,7 +3,7 @@ import {TouchTapEvent, ReactLink} from './commons'
 import * as propTypes from './propTypes'
 import MenuItem from './MenuItem'
 
-export interface MenuProps extends React.Props<Menu> {
+export interface MenuProps {
     // <List/> is the element that get the 'other' properties
     /** @deprecated Instead, use a Popover */
     animated?: boolean;

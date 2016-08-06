@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface CardExpandableProps extends React.Props<CardExpandable> {
+export interface CardExpandableProps {
     expanded?: boolean;
     onExpanding?: (isExpanded: boolean) => void;
     style?: React.CSSProperties;

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface BeforeAfterWrapperProps extends React.Props<BeforeAfterWrapper> {
+export interface BeforeAfterWrapperProps {
     afterElementType?: string;
     afterStyle?: React.CSSProperties;
     beforeElementType?: string;

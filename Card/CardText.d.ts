@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface CardTextProps extends React.Props<CardText> {
+export interface CardTextProps {
     actAsExpander?: boolean;
     color?: string;
     expandable?: boolean;

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface AvatarProps extends React.Props<Avatar> {
+export interface AvatarProps {
     backgroundColor?: string;
     className?: string;
     color?: string;
