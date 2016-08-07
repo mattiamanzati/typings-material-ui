@@ -1,4 +1,4 @@
 import * as React from 'react';
 import {SvgIconProps} from '../../SvgIcon';
 
-export default function Http(props: SvgIconProps): React.ReactElement;
+export default function Http(props: SvgIconProps): React.ReactElement<SvgIconProps>;

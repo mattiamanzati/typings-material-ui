@@ -1,4 +1,4 @@
 import * as React from 'react';
 import {SvgIconProps} from '../../SvgIcon';
 
-export default function AirlineSeatLegroomExtra(props: SvgIconProps): React.ReactElement;
+export default function AirlineSeatLegroomExtra(props: SvgIconProps): React.ReactElement<SvgIconProps>;

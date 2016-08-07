@@ -77,9 +77,10 @@ function generateIndex() {
   rrs(OUTPUT_DIR).forEach(file => {
     if (file !== 'index.js') {
       const moduleName = pascalCase(path.basename(file));
+      const moduleFolder = pascalCase(path.basename(path.dirname(file)));
       const modulePath = path.relative(OUTPUT_DIR, file.replace('.d.ts', '')).replace(/\\/g, '/');
 
-      outArray.push(`export ${moduleName} from './${modulePath}';\n`);
+      outArray.push(`export {default as ${moduleFolder}${moduleName}} from './${modulePath}';\n`);
     }
   });
 

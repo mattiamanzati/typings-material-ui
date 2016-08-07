@@ -1,4 +1,4 @@
 import * as React from 'react';
 import {SvgIconProps} from '../../SvgIcon';
 
-export default function EventSeat(props: SvgIconProps): React.ReactElement;
+export default function EventSeat(props: SvgIconProps): React.ReactElement<SvgIconProps>;
