@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Tab from './tab';
+import Tab from './Tab';
 
 export interface TabTemplateExpectedProps {
     selected?: boolean;
