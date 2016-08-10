@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface LinearProgressProps extends React.Props<LinearProgress> {
+export interface LinearProgressProps {
     color?: string;
     max?: number;
     min?: number;

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface RefreshIndicatorProps extends React.Props<RefreshIndicator> {
+export interface RefreshIndicatorProps {
     color?: string;
     left: number;
     loadingColor?: string;

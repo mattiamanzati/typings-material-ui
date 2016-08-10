@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface CircularProgressProps extends React.Props<CircularProgress> {
+export interface CircularProgressProps {
     color?: string;
     innerStyle?: React.CSSProperties;
     max?: number;
