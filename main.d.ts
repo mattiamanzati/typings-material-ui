@@ -14,6 +14,7 @@ export {default as FloatingActionButton, FloatingActionButtonProps} from './Floa
 export {default as IconButton, IconButtonProps} from './IconButton'
 export {default as IconMenu, IconMenuProps} from './IconMenu'
 export {default as LinearProgress, LinearProgressProps} from './LinearProgress'
+export * from './List'
 export {default as Menu, MenuProps} from './Menu'
 export {default as MenuItem, MenuItemProps} from './MenuItem'
 export * from './RadioButton'
