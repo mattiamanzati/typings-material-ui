@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export interface DialogProps extends React.DOMAttributes {
+export interface DialogProps {
     actions?: React.ReactElement<any> | React.ReactElement<any>[];
     actionsContainerClassName?: string;
     actionsContainerStyle?: React.CSSProperties;
