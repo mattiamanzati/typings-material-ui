@@ -1,0 +1,7 @@
+export {default as Table, TableProps} from './Table'
+export {default as TableBody, TableBodyProps} from './TableBody'
+export {default as TableFooter, TableFooterProps} from './TableFooter'
+export {default as TableHeader, TableHeaderProps} from './TableHeader'
+export {default as TableHeaderColumn, TableHeaderColumnProps} from './TableHeaderColumn'
+export {default as TableRow, TableRowProps} from './TableRow'
+export {default as TableRowColumn, TableRowColumnProps} from './TableRowColumn'

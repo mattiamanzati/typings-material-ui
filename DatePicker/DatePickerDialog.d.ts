@@ -1,8 +1,9 @@
 import * as React from 'react'
+import {PopoverAnimationType} from '../Popover/Popover';
 
 export interface DatePickerDialogProps {
   DateTimeFormat?: Intl.DateTimeFormat;
-  animation?: React.ReactType;
+  animation?: PopoverAnimationType;
   autoOk?: boolean;
   cancelLabel?: React.ReactNode;
   container?: 'dialog' | 'inline';

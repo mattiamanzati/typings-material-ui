@@ -9,7 +9,7 @@ export interface FlatButtonProps extends React.DOMAttributes, SharedEnhancedButt
     href?: string;
     icon?: React.ReactNode;
     label?: React.ReactNode;
-    labelPosition?: "before" | "after";
+    labelPosition?: 'before' | 'after';
     labelStyle?: React.CSSProperties;
     linkButton?: boolean;
     onKeyboardFocus?: (e: React.FocusEvent, isKeyboardFocused: boolean) => void;
