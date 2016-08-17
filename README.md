@@ -13,3 +13,5 @@ typings install github:mattiamanzati/typings-material-ui
 
 ### Thanks
 Many thanks to Nathan Brown <https://github.com/ngbrown> and Oliver Herrmann <https://github.com/herrmanno> who provided the basic typings being re-arranged for usage as npm-module!
+
+Thanks to Ali Taheri Moghaddar <https://github.com/alitaheri> who did most of the migration work!
