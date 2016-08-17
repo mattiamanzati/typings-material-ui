@@ -31,6 +31,7 @@ export {default as Snackbar, SnackbarProps, SnackbarCloseReason} from './Snackba
 export * from './Stepper'
 export {default as Subheader, SubheaderProps} from './Subheader'
 export {default as SvgIcon, SvgIconProps} from './SvgIcon'
+export * from './Table'
 export * from './Tabs'
 export {default as TextField, TextFieldProps} from './TextField'
 export {default as TimePicker, TimePickerProps} from './TimePicker'
