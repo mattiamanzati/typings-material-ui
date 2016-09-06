@@ -3,12 +3,14 @@ import * as propTypes from './propTypes'
 import Divider from './Divider'
 import * as Menus from './Menus'
 
-export type AutoCompleteDataItem = { text: string, value: React.ReactNode } | string;
-export type AutoCompleteDataSource = { text: string, value: React.ReactNode }[] | string[];
+export type AutoCompleteDataItem = Object | string;
+export type AutoCompleteDataSource = Object[] | string[];
+export type AutoCompleteDataSourceConfig = {text: string, value: string}
 export interface AutoCompleteProps {
     anchorOrigin?: propTypes.origin;
     animated?: boolean;
     dataSource: AutoCompleteDataSource;
+    dataSourceConfig?: AutoCompleteDataSourceConfig;
     disableFocusRipple?: boolean;
     errorStyle?: React.CSSProperties;
     errorText?: string;
