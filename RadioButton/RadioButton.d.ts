@@ -11,6 +11,7 @@ export interface RadioButtonProps extends CommonEnhancedSwitchProps<RadioButton>
     style?: React.CSSProperties;
     uncheckedIcon?: React.ReactElement<{ style?: React.CSSProperties }>; // Normally an SvgIcon
     value?: any;
+    label?: string;
 }
 
 export default class RadioButton extends React.Component<RadioButtonProps, {}> {
