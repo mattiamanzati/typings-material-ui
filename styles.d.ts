@@ -1,3 +1,4 @@
+export * as colors from './styles/colors'
 export {default as getMuiTheme} from './styles/getMuiTheme'
 export {darkBaseTheme, lightBaseTheme, MuiTheme, RawTheme, ThemePalette} from './styles/MuiTheme'
 export {default as muiThemeable} from './styles/muiThemeable'
